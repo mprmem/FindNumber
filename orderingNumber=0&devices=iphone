@@ -5,13 +5,8 @@
     "version": "3.7.2",
     "main": "animate.css",
     "repository": {
-      "type": "git",
-      "url": "https://github.com/daneden/animate.css.git"
+      "type": "git"
     },
-    "author": {
-      "name": "Daniel Eden"
-    },
-    "homepage": "https://daneden.github.io/animate.css/",
     "license": "MIT",
     "style": "./animate.css",
     "jspm": {
