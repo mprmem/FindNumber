@@ -1,0 +1,194 @@
+{
+  "msg": "fail",
+  "version": "3.0",
+  "res": {
+    "css": {
+      "name": "animate.css",
+      "version": "3.7.2",
+      "main": "animate.css",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/daneden/animate.css.git"
+      },
+      "author": {
+        "name": "Daniel Eden"
+      },
+      "homepage": "https://daneden.github.io/animate.css/",
+      "license": "MIT",
+      "style": "./animate.css",
+      "jspm": {
+        "main": "animate.css!",
+        "format": "global",
+        "directories": {
+          "lib": "./"
+        }
+      },
+      "vertical": [
+        {
+          "number": "0",
+          "views": 0,
+          "ncos": 0,
+          "rank": 3,
+          "tag": [
+            
+          ],
+          "cr": "plus",
+          "favs": 0,
+          "atime": 1559095807,
+          "id": "5cb45fc3e7bce75e2ae8ed9a",
+          "desc": "",
+          "cid": [
+            "4e4d610cdf714d2966000000"
+          ],
+          "rule": "?imageMogr2/thumbnail/!$<Width>x$<Height>r/gravity/Center/crop/$<Width>x$<Height>",
+          "store": "user"
+        },
+        {
+          "number": 2,
+          "views": 0,
+          "ncos": 0,
+          "rank": 131,
+          "tag": [
+            
+          ],
+          "cr": "plus",
+          "favs": 4,
+          "atime": 1559091637,
+          "id": "5cb45fc4e7bce75e0214c75f",
+          "desc": "question",
+          "cid": [
+            "4e4d610cdf714d2966000000"
+          ],
+          "url": [
+            
+          ],
+          "store": "user"
+        },
+        {
+          "number": 3,
+          "views": 0,
+          "ncos": 1,
+          "rank": 629,
+          "tag": [
+            
+          ],
+          "cr": "plus",
+          "favs": 40,
+          "atime": 1559088005,
+          "id": "5cb48c57e7bce75e91a077ff",
+          "desc": "question",
+          "cid": [
+            "4e4d610cdf714d2966000000"
+          ],
+          "url": [
+            
+          ],
+          "rule": "?imageMogr2/thumbnail/!$<Width>x$<Height>r/gravity/Center/crop/$<Width>x$<Height>",
+          "store": "user"
+        },
+        {
+          "number": 4,
+          "views": 0,
+          "ncos": 4,
+          "rank": 2729,
+          "tag": [
+            
+          ],
+          "cr": "plus",
+          "favs": 112,
+          "atime": 1559053207,
+          "id": "5cb48c59e7bce75dca87bdc6",
+          "desc": "question",
+          "cid": [
+            "4e4d610cdf714d2966000000"
+          ],
+          "url": [
+            
+          ],
+          "rule": "?imageMogr2/thumbnail/!$<Width>x$<Height>r/gravity/Center/crop/$<Width>x$<Height>",
+          "store": "user"
+        },
+        {
+          "number": 5,
+          "views": 0,
+          "ncos": 7,
+          "rank": 3229,
+          "tag": [
+            
+          ],
+          "cr": "plus",
+          "favs": 128,
+          "atime": 1559049007,
+          "id": "5cb48c5ce7bce75ebd2c3292",
+          "desc": "question",
+          "cid": [
+            "4e4d610cdf714d2966000000"
+          ],
+          "url": [
+            
+          ],
+          "rule": "?imageMogr2/thumbnail/!$<Width>x$<Height>r/gravity/Center/crop/$<Width>x$<Height>",
+          "store": "user"
+        },
+        {
+          "number": 6,
+          "views": 0,
+          "ncos": 3,
+          "rank": 2045,
+          "tag": [
+            
+          ],
+          "cr": "plus",
+          "favs": 94,
+          "atime": 1559045406,
+          "id": "5c51744be7bce75e40ba227a",
+          "desc": "question",
+          "cid": [
+            "4e4d610cdf714d2966000000"
+          ],
+          "url": [
+            
+          ],
+          "rule": "?imageMogr2/thumbnail/!$<Width>x$<Height>r/gravity/Center/crop/$<Width>x$<Height>",
+          "store": "user"
+        }
+      ],
+      "devDependencies": {
+        "autoprefixer": "^9.0.1",
+        "cssnano": "^4.0.3",
+        "eslint": "^5.2.0",
+        "gulp": "^4.0.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-header": "^2.0.1",
+        "gulp-postcss": "^8.0.0",
+        "gulp-rename": "^1.2.2",
+        "gulp-util": "^3.0.8",
+        "husky": "^1.2.0",
+        "lint-staged": "^8.1.0",
+        "prettier": "^1.10.2",
+        "run-sequence": "^2.2.1"
+      },
+      "lint-staged": {
+        "*.{js,json,md,css}": [
+          "prettier --write",
+          "git add"
+        ]
+      },
+      "prettier": {
+        "bracketSpacing": false,
+        "proseWrap": "never",
+        "singleQuote": true,
+        "trailingComma": "all"
+      },
+      "scripts": {
+        "gulp": "./node_modules/gulp/bin/gulp.js",
+        "start": "gulp",
+        "prettier": "prettier --write \"**/*.{js,json,md,css}\"",
+        "precommit": "lint-staged"
+      },
+      "spm": {
+        "main": "./animate.css"
+      }
+    }
+  }
+}
